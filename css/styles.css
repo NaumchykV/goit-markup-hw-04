@@ -178,6 +178,10 @@ img {
 
 /*-----------HERO-----------------*/
 
+.hero-content {display: flex;
+align-items: center;
+justify-content: center;}
+
 .hero {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -190,6 +194,7 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
   max-width: 1440px;
+  align-items: center;
 }
 
 .hero-title {
